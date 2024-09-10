@@ -58,11 +58,11 @@ function App() {
       <div className='flex text-sm gap-x-2'>  
       <div className='flex item-center gap-x-1'>
         <input cursor = "cursor-pointer" type='checkbox' defaultChecked ={numberAllowed} onChange={()=>setNumberAllowed((prev)=>!prev)}/>
-        <label>Number{numberAllowed}</label>
+        <label>Numbers{numberAllowed}</label>
       </div>
       <div className='flex item-center gap-x-1'>
         <input cursor = "cursor-pointer" type='checkbox' defaultChecked={charAllowed} onChange={()=>setCharAllowed((prevStat)=>!prevStat)}/>
-        <label>Char {charAllowed}</label>        
+        <label>Charecters {charAllowed}</label>        
       </div>
       </div>
       </div>
